@@ -3,7 +3,6 @@ import { Grid } from '@material-ui/core';
 import Main from './comp/Main/Main'
 import Details from './comp/Main/Form/Details/Details'
 import useStyles from './styles';
-
 const App1 = ({handleLogout}) => {
     const classes = useStyles();
     return (
@@ -23,13 +22,14 @@ const App1 = ({handleLogout}) => {
                         <Details title="Expense"/>
                     </Grid>
                     <Grid item xs={12} sm={4}>
+                        <Details title="Student Loan"/>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
                     <Main />
                     </Grid>
-                    
                 </Grid>
                 </Grid>
         </div>
     )
 }
-
 export default App1

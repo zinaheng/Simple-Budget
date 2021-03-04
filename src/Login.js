@@ -20,7 +20,9 @@ const Login = (props) => {
         emailError,
         passwordError,
     } = props;
-   
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+    </style> 
 
    function nextPage(){
        return ReactDOM.render(<App1 />,document.getElementById('root'));
@@ -29,7 +31,8 @@ const Login = (props) => {
     return (
         <Grid>
             <h1 className ="message">
-                Simple Budget <br></br><span>Helping Family, Friends to save Income</span>
+                Simple Budget <br></br>
+                <span className="motto">Helping Family, Friends to save Income</span>
                 </h1>
                 {/* <h2 className= "quote">Helping Family, Friends to save Income</h2> */}
 
