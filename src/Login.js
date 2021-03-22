@@ -5,6 +5,7 @@ import './LoginPage.css';
 import {Button, Grid, Paper, TextField} from '@material-ui/core'
 import Main from './comp/Main/Main'
 import App1 from './App1';
+import Logo2 from "./Logo2.png";
 
 
 const Login = (props) => {
@@ -38,7 +39,9 @@ const Login = (props) => {
 
                 <section className = "login">
                     <div className="loginContainer">
-                        
+                        <div className="logo">
+                            <img src ={Logo2} alt="website logo"/>
+                        </div>
                         <label>Username</label>
                         <input type="text"
                          autoFocus 

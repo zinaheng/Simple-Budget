@@ -3,6 +3,7 @@ import { Grid } from '@material-ui/core';
 import Main from './comp/Main/Main'
 import Details from './comp/Main/Form/Details/Details'
 import useStyles from './styles';
+import Logo2 from './Logo2.png'
 const App1 = ({handleLogout}) => {
     const classes = useStyles();
     return (
@@ -10,6 +11,9 @@ const App1 = ({handleLogout}) => {
             <Grid>
             <section className="App1">
             <nav>
+                <div className="logo">
+                    <img src={Logo2}/>
+                </div>
                 <h2>Welcome</h2>
                 <button onClick={handleLogout}>Logout</button>
             </nav>

@@ -23,6 +23,15 @@
 .motto {
   font-size: 18px;
 }
+.logo img{
+  border-radius: 100%;
+  align-items: flex-start;
+  width: 100px;
+  opacity: 0.8;
+  box-shadow: #fff;
+  margin:10px;
+  
+}
 /* .col {
     display: flex;
     width: 180px;
