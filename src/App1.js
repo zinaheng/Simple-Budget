@@ -3,10 +3,22 @@ import { Grid } from '@material-ui/core';
 import Main from './comp/Main/Main'
 import Details from './comp/Main/Form/Details/Details'
 import useStyles from './styles';
-import Logo2 from './Logo2.png'
-const App1 = ({handleLogout}) => {
+import Application from "./Application";
+import Logo2 from './Logo2.jpg'
+import App from './App';
+import { useContext } from "react";
+import { UserContext } from "./UserProvider";
+import { navigate } from "@reach/router";
+import {auth} from "./firebase";
+
+
+// const handleLogout = () => {
+//     auth().signOut();
+// };
+const App1 = () => {
     const classes = useStyles();
     return (
+        
         <div>
             <Grid>
             <section className="App1">
@@ -15,7 +27,8 @@ const App1 = ({handleLogout}) => {
                     <img src={Logo2}/>
                 </div>
                 <h2>Welcome</h2>
-                <button onClick={handleLogout}>Logout</button>
+                <button  onClick = {() => {auth.signOut()}}>Sign out</button>
+                
             </nav>
         </section>
                 <Grid className={classes.grid} container spacing={0} alignItems="center" justify="center" style={{height: '100vh' }}>
@@ -34,6 +47,6 @@ const App1 = ({handleLogout}) => {
                 </Grid>
                 </Grid>
         </div>
-    )
+    );
 }
 export default App1
