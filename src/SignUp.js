@@ -50,11 +50,7 @@ const SignUp = () => {
     <div className="mt">
       {/* <h1 >Sign Up</h1> */}
       <div className="border border-blue-400 mx-auto w-11/12 md:w-2/4 rounded py-8 px-4 md:px-8">
-        {error !== null && (
-          <div className="py-4 bg-red-600 w-full text-white text-center mb-3">
-            {error}
-          </div>
-        )}
+      
         <form className="signUp">
         <div className="signupContainer">
         <img src= {Logo2}></img>
@@ -109,7 +105,8 @@ const SignUp = () => {
             Sign in here
           </Link>{" "}
         </p>
-          </div>
+        {error !== null && <div className = "errorMsg">{error}</div>}
+         </div>
         </form>
         
        

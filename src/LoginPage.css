@@ -69,12 +69,10 @@
    
 }
 
-
 .id{
 color: white;
 margin: 2px;
-
-   
+ 
 }
 .id2{
     color: white;
@@ -115,7 +113,7 @@ margin: 2px;
   button {
     border: none;
     outline: none;
-    width: 30%;
+    width: 50%;
     padding: 15px 0;
     border-radius: 20px;
     color: #fff;
@@ -127,7 +125,7 @@ margin: 2px;
     
   }
   button:hover{
-    color: red;
+    color: yellow;
   }
   
   .mt-8 {
@@ -215,9 +213,11 @@ margin: 2px;
   }
   
   .login .loginContainer .errorMsg {
-    color: firebrick;
-    font-size: 20px;
+  
+    color: red;
+    font-size: 100px;
     font-family: 'Lato', sans-serif;
+    align-items: flex-end;
   }
   
   /*  main page nav bar style below */
@@ -246,14 +246,17 @@ margin: 2px;
     justify-content: space-between;
   }
   
-  .App1 nav h2 {
+  .App1 nav h1 {
     color: #fff;
     padding: 3px;;
     margin-left: 10px;
+    font-size: 35px;
   }
   
+  
   .App1 nav button {
-    width: 86px;
+    width: 100px;
+    height: 55px;
     padding: 8px 0;
     background: redcoral;
     margin-right: 10px;

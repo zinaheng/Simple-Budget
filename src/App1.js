@@ -26,7 +26,7 @@ const App1 = () => {
                 <div className="logo">
                     <img src={Logo2}/>
                 </div>
-                <h2>Welcome</h2>
+                <h1 className= "h">Welcome</h1>
                 <button  onClick = {() => {auth.signOut()}}>Sign out</button>
                 
             </nav>

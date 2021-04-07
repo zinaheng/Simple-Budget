@@ -45,12 +45,14 @@ const SignIn = () => {
     <div className="mt-8">
        
       <div className="border border-blue-400 mx-auto w-11/12 md:w-2/4 rounded py-8 px-4 md:px-8">
-        {error !== null && <div className = "py-4 bg-red-600 w-full text-white text-center mb-3">{error}</div>}
+        {/* {error !== null && <div className = "errorMsg">{error}</div>} */}
                  
         <form className="logIn">
         
           <div className="loginContainer">
+          
           <img src= {Logo2}></img>
+          
           <h1>Welcome Back</h1>
             <label htmlFor="userEmail" >
               Email:
@@ -90,6 +92,7 @@ const SignIn = () => {
               Forgot Password?
             </Link>
           </p>
+          {error !== null && <div className = "errorMsg">{error}</div>}
             </div>
           </form>
           
