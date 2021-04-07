@@ -123,9 +123,27 @@ margin: 2px;
     cursor: pointer;
     align-items: center;
     
+    
   }
   button:hover{
+    color:red;
+  }
+
+
+
+  .logIn .loginContainer button:hover{
     color: yellow;
+  }
+
+  .signUp .signupContainer button:hover{
+    color: yellow;
+  }
+  .ResetFrom .resetContainer button:hover{
+    color: yellow;
+  }
+
+  .logIn .loginContainer button{
+    
   }
   
   .mt-8 {
