@@ -6,7 +6,7 @@ export default makeStyles (() => ({
     expenses: {
         borderBottom: '10px solid blue'
     },
-    loan: {
+    StudentLoan: {
         borderBottom: '10px solid blue'
     }
 }))
