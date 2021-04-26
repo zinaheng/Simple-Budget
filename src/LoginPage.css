@@ -1,0 +1,406 @@
+.Height{
+    padding: 35px;
+    height: 500px;
+    width: 320px;
+    margin-left: 880px;
+    margin-top: 15px ;
+}
+
+.message{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background: radial-gradient(
+      ellipse at left top,
+      #ddffbc 10%,
+      #29bb89 30%,
+      #289672 60%
+    );
+    color: white;
+    font-family: initial;
+   
+}
+.motto {
+  font-size: 18px;
+}
+ img{
+  border-radius: 55px;
+  align-items: flex-start;
+  width: 100px;
+  opacity: 0.8;
+  box-shadow: rgb(129, 126, 126);
+  margin:5px;
+  
+}
+/* .col {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+} */
+ .image1 img {
+    flex: 0.4;
+    object-fit: contain;
+    width: 100%;
+} 
+.quote{
+    text-align: center;
+    padding: 14px;
+    margin: 0;
+    background: radial-gradient(
+      ellipse at left top,
+      #ddffbc 10%,
+      #29bb89 30%,
+      #289672 60%
+      );
+    color: white;
+    font-family: cursive;
+}
+
+
+ /* .user{
+    
+    background: whitesmoke;
+   
+} */
+
+/* .pass{
+    background: whitesmoke;
+   
+}
+
+.id{
+color: white;
+margin: 2px;
+ 
+}
+.id2{
+    color: white;
+    margin: 14px;
+} */ 
+
+/* .sub{
+    text-size-adjust:x-large;
+    height: 60px;
+   
+   
+}
+
+.id4{
+    margin: 32px;
+}
+
+.bth
+{
+    height: 50px;
+    text-decoration: white;
+}
+
+.copy{
+   text-align:center;
+} */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  } */ 
+
+
+
+  /* Login style below */
+  button {
+    border: none;
+    outline: none;
+    width: 50%;
+    padding: 15px 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: lightcoral;
+    cursor: pointer;
+    align-items: center;
+    
+    
+  }
+  button:hover{
+    color:red;
+  }
+
+
+
+  .logIn .loginContainer button:hover{
+    color: yellow;
+  }
+
+  .signUp .signupContainer button:hover{
+    color: yellow;
+  }
+  .ResetFrom .resetContainer button:hover{
+    color: yellow;
+  }
+
+  .logIn .loginContainer button{
+    
+  }
+  
+  .mt-8 {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: #e9e9e9;
+    display: flex;
+  }
+  .mt-8.logIn {
+    border: #2e8069;
+    border-radius: 5;
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .logIn .loginContainer {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 55px;
+    background: radial-gradient(
+      ellipse at left top,
+      #ddffbc 10%,
+      #29bb89 30%,
+      #289672 60%
+    );
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .logIn .loginContainer label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    border-radius: 55px;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .logIn .loginContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    border-radius: 55px;
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 1px;
+  }
+  
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+  
+  .login .loginContainer .btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .login .loginContainer .btnContainer p span {
+    color: yellow;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  .login .loginContainer .btnContainer p span:hover {
+    color: red;
+  }
+  
+  .login .loginContainer .errorMsg {
+  
+    color: red;
+    font-size: 100px;
+    font-family: 'Lato', sans-serif;
+    align-items: flex-end;
+  }
+  
+  /*  main page nav bar style below */
+  .App1 {
+    width: 100%;
+    
+    background: radial-gradient(
+      ellipse at left top,
+      #ddffbc 10%,
+      #29bb89 30%,
+      #289672 60%
+    );
+  }
+  
+  .App1 nav {
+    background: radial-gradient(
+      ellipse at left top,
+      #ddffbc 10%,
+      #29bb89 30%,
+      #289672 60%
+    );
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .App1 nav h1 {
+    color: #fff;
+    padding: 3px;;
+    margin-left: 10px;
+    font-size: 35px;
+  }
+  
+  
+  .App1 nav button {
+    width: 100px;
+    height: 55px;
+    padding: 8px 0;
+    background: redcoral;
+    margin-right: 10px;
+  }
+
+/* Sign Up style below */
+.mt {
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #e9e9e9;
+  display: flex;
+}
+
+
+  .mt.signUp {
+    border: #2e8069;
+    border-radius: 5;
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .signUp .signupContainer {
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 600px;
+    display: flex;
+    border-radius: 55px;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(
+      ellipse at left top,
+      #ddffbc 10%,
+      #29bb89 30%,
+      #289672 60%
+    );
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .signUp .signupContainer label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    border-radius: 55px;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .signUp .signupContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    border-radius: 55px;
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 1px;
+  
+  }
+
+  /* forgot password style below */
+  .m {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: #e9e9e9;
+    display: flex;
+  }
+  .m.ResetFrom {
+    border: #2e8069;
+    border-radius: 5;
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .ResetFrom .resetContainer{
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 520px;
+    min-height: 300px;
+    border-radius: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: radial-gradient(
+      ellipse at left top,
+      #ddffbc 10%,
+      #29bb89 30%,
+      #289672 60%
+    );
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .ResetFrom .resetContainer label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    border-radius: 55px;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .ResetFrom .resetContainer input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    border-radius: 55px;
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 1px;
+  
+  }
